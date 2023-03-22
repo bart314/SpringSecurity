@@ -31,6 +31,6 @@ public class DemoController {
     // VOORBEELD 3
     @GetMapping ("/login")
     public String login(){
-        return "login";
+        return "login_demo";
     }
 }
